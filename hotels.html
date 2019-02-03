@@ -23,7 +23,29 @@
   <main class="container">
     <section class="filters">
       <h2 class="visually-hidden">Фильтр гостиниц</h2>
-      <!--Здесь будет форма-->
+      <form action="#" method="post">
+        <div>
+          <input type="checkbox" id="options-field-1" checked>
+          <label for="options-field-1">Бассейн</label>
+          <input type="checkbox" id="options-field-2">
+          <label for="options-field-2">Парковка</label>
+          <input type="checkbox" id="options-field-3">
+          <label for="options-field-3">WI-FI</label>
+        </div>
+        <div>
+          <input type="checkbox" id="type-field-1" checked>
+          <label for="options-field-1">Гостиница</label>
+          <input type="checkbox" id="type-field-2" checked>
+          <label for="options-field-2">Мотель</label>
+          <input type="checkbox" id="type-field-3" checked>
+          <label for="options-field-3">Апартаменты</label>
+        </div>
+        <div>
+          <label for="price">Цена в сутки(Р)</label>
+          <input id="price" type="range" min="0" max="4000" step="500">
+        </div>
+        <button type="submit" class="search">Показать</button>
+      </form>
     </section>
 
     <section class="found">
