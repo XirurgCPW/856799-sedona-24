@@ -23,27 +23,26 @@
   <main class="container">
     <section class="filters">
       <h2 class="visually-hidden">Фильтр гостиниц</h2>
-      <form action="#" method="post">
-        <div>
-          <input type="checkbox" id="options-field-1" checked>
-          <label for="options-field-1">Бассейн</label>
-          <input type="checkbox" id="options-field-2">
-          <label for="options-field-2">Парковка</label>
-          <input type="checkbox" id="options-field-3">
-          <label for="options-field-3">WI-FI</label>
-        </div>
-        <div>
-          <input type="checkbox" id="type-field-1" checked>
-          <label for="options-field-1">Гостиница</label>
-          <input type="checkbox" id="type-field-2" checked>
-          <label for="options-field-2">Мотель</label>
-          <input type="checkbox" id="type-field-3" checked>
-          <label for="options-field-3">Апартаменты</label>
-        </div>
-        <div>
-          <label for="price">Цена в сутки(Р)</label>
-          <input name="price" id="price" type="range" min="0" max="4000" step="500">
-        </div>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <fieldset>
+          <legend>Инфраструктура</legend>
+          <input type="checkbox" name="options-field" id="options-field" value="Бассейн" checked>
+          <label for="options-field">Бассейн</label>
+          <input type="checkbox" name="options-field" id="options-field" value="Парковка">
+          <label for="options-field">Парковка</label>
+          <input type="checkbox" name="options-field" id="options-field" value="WI-FI">
+          <label for="options-field">WI-FI</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Тип жилья</legend>
+          <input type="checkbox" name="type-field" id="type-field" value="Гостиница" checked>
+          <label for="type-field">Гостиница</label>
+          <input type="checkbox" name="type-field" id="type-field" value="Мотель" checked>
+          <label for="type-field">Мотель</label>
+          <input type="checkbox" name="type-field" id="type-field" value="Апартаменты" checked>
+          <label for="type-field">Апартаменты</label>
+        </fieldset>
         <button type="submit" class="search">Показать</button>
       </form>
     </section>
@@ -60,9 +59,9 @@
           <p class="price">от 4000 Р.</p>
           <p class="star">
             <img src="img/star.svg" alt="4 звезды">
-            <img src="img/star.svg">
-            <img src="img/star.svg">
-            <img src="img/star.svg">
+            <img src="img/star.svg" alt="">
+            <img src="img/star.svg" alt="">
+            <img src="img/star.svg" v>
           </p>
           <p class="rating">РЕЙТИНГ: 8.5</p>
           <p class="hotel-buttons">
@@ -80,8 +79,8 @@
           <p class="price">От 3000 Р.</p>
           <p class="star">
             <img src="img/star.svg" alt="3 звезды">
-            <img src="img/star.svg">
-            <img src="img/star.svg">
+            <img src="img/star.svg" alt="">
+            <img src="img/star.svg" alt="">
           </p>
           <p class="rating">Рейтинг: 8,9</p>
           <p class="hotel-buttons">
@@ -99,7 +98,7 @@
           <p class="price">От 2000 Р.</p>
           <p class="star">
             <img src="img/star.svg" alt="2 звезды">
-            <img src="img/star.svg">
+            <img src="img/star.svg" alt="">
           </p>
           <p class="rating">Рейтинг: 9,2</p>
           <p class="hotel-buttons">
