@@ -10,7 +10,7 @@
   <header class="main-header">
     <nav class="main-menu">
       <a class="logo">
-        <img src="img/logo.svg"  width="100" height="50" alt="City of Sedona">
+        <img src="img/logo.svg" width="100" height="50" alt="City of Sedona">
       </a>
       <ul class="site-navigation">
         <li><a href="info.html">Информация</a></li>
@@ -68,16 +68,36 @@
       <a class="button" href="search-hotels">Поиск гостиницы в седоне</a>
       <!--здесь форма для поиска гостиницы-->
     </section>
-    <section class="map">
-      <a href="map.html"></a>
+
+    <section class="modal modal-search">
+      <form action="https://echo.htmlacademy.ru" method="get">
+        <fieldset>
+          <label for="check-in-date">Дата заезда</label>
+          <input type="date" name="check-in-date" id="check-in-date"  />
+          <img src="img/calendar.svg" width="20" height="20" alt="Дата заезда" />
+          <label for="check-out-date">Дата выезда</label>
+          <input type="date" name="check-out-date" id="check-out-date" />
+          <img src="img/calendar.svg" width="20" height="20" alt="Дата выезда" />
+          <label for="adult">Взрослые</label>
+          <input type="number" min="1" max="10" id="adult" value="1" />
+          <label for="child">Дети</label>
+          <input type="number" min="1" max="10" id="child" value="1" />
+          <button type="submit" class="search">Найти</button>
+        </fieldset>
+      </form>
     </section>
-  </main>
+
+    <section class="map">
+            <a href="map.html"></a>
+    </section>
+ </main>
+
   <footer class="main-footer">
     <b class="visit">#visitsedona</b>
     <ul class="footer-social">
-      <li><a class="social-button"  href="#">Twitter</a></li>
-      <li><a class="social-button"  href="#">Facebook</a></li>
-      <li><a class="social-button"  href="#">Youtube</a></li>
+      <li><a class="social-button" href="#">Twitter</a></li>
+      <li><a class="social-button" href="#">Facebook</a></li>
+      <li><a class="social-button" href="#">Youtube</a></li>
     </ul>
     <p class="footer-copyright">
       <b>website by</b>
