@@ -65,36 +65,44 @@
     <section class="search-hotels">
       <h3>Заинтересовались?</h3>
       <p>Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-      <a class="button" href="search-hotels">Поиск гостиницы в седоне</a>
+      <button type="button">Поиск гостиницы в седоне</button>
       <!--здесь форма для поиска гостиницы-->
     </section>
 
     <section class="modal modal-search">
       <form action="https://echo.htmlacademy.ru" method="get">
         <fieldset>
-          <label for="check-in-date">Дата заезда</label>
-          <input type="text" name="check-in-date" id="check-in-date"  />
-          <button type="button">Выбрать дату</button>
-          <label for="check-out-date">Дата выезда</label>
-          <input type="text" name="check-out-date" id="check-out-date" />
-          <button type="button">Выбрать дату</button>
-          <label for="adult">Взрослые</label>
-          <input type="number" min="1" max="10" id="adult" value="1" />
-          <button type="button" class="button-adult-up" name="button">Больше</button>
-          <button type="button" class="button-adult-down" name="button">Меньше</button>
-          <label for="child">Дети</label>
-          <input type="number" min="1" max="10" id="child" value="1" />
-          <button type="button" class="button-child-up" name="button">Больше</button>
-          <button type="button" class="button-child-down" name="button">Меньше</button>
+          <p>
+            <label for="check-in-date">Дата заезда</label>
+            <input type="text" name="check-in-date" id="check-in-date" required />
+            <button type="button">Выбрать дату</button>
+          </p>
+          <p>
+            <label for="check-out-date">Дата выезда</label>
+            <input type="text" name="check-out-date" id="check-out-date" required />
+            <button type="button">Выбрать дату</button>
+          </p>
+          <p>
+            <label for="adult">Взрослые</label>
+            <input type="number" min="1" max="10" id="adult" value="1" required />
+            <button type="button" class="button-adult-up" name="button">Больше</button>
+            <button type="button" class="button-adult-down" name="button">Меньше</button>
+          </p>
+          <p>
+            <label for="child">Дети</label>
+            <input type="number" min="1" max="10" id="child" value="1" required />
+            <button type="button" class="button-child-up" name="button">Больше</button>
+            <button type="button" class="button-child-down" name="button">Меньше</button>
+          </p>
           <button type="submit" class="search">Найти</button>
         </fieldset>
       </form>
     </section>
 
     <section class="map">
-            <a href="map.html"></a>
+      <a href="map.html"></a>
     </section>
- </main>
+  </main>
 
   <footer class="main-footer">
     <b class="visit">#visitsedona</b>
