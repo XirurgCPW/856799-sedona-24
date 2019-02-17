@@ -61,8 +61,17 @@ a {
   font-weight: bold;
   color: #000000;
 }
+
+.visually-hidden {
+  visibility: hidden;
+}
+
 .intro {
   background-image: url("../img//background-photo-main.PNG");
+  background-color: #2D383C;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
 }
 
 .search-hotels {
