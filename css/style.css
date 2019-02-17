@@ -5,12 +5,11 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 700;
   color: #000000;
   text-transform: uppercase;
 
   background-color: #ffffff;
-  /*background-image: url("img/background-photo-main.jpg");*/
+  background-image: url("img/background-photo-main.PNG")/*;перенести в section*/
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -61,4 +60,21 @@ a {
   line-height: 25px;
   font-weight: bold;
   color: #000000;
+}
+.intro {
+  background-image: url("img/background-photo-main.PNG");
+}
+
+.search-hotels {
+  background-color: #766357;
+  color: white;
+}
+.search {
+  background-color: #81b3d2;
+  color: white;
+}
+
+.social-button {
+  background-color: #81b3d2;
+  color: white;
 }
