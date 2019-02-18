@@ -70,7 +70,7 @@ a {
   background-image: url("../img//background-photo-main.PNG");
   background-color: #2D383C;
   background-repeat: no-repeat;
-  background-position: left top;
+  text-align: center;
   background-size: 100%;
 }
 
@@ -78,8 +78,27 @@ a {
   background-color: #766357;
   color: white;
 }
+
 .search {
   background-color: #81b3d2;
+  color: white;
+}
+
+.filters {
+  background-image: url("../img//filter-background-hotels.PNG");
+  background-color: #2D383C;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: 100%;
+}
+
+.about-hotel {
+  background-color: #81b3d2;
+  color: white;
+}
+
+.hotel-book {
+  background-color: #766357;
   color: white;
 }
 
