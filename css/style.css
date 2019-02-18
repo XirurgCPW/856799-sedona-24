@@ -67,7 +67,7 @@ a {
 }
 
 .intro {
-  background-image: url("../img//background-photo-main.PNG");
+  background-image: url("../img//background-photo-main.png");
   background-color: #2D383C;
   background-repeat: no-repeat;
   text-align: center;
@@ -85,7 +85,7 @@ a {
 }
 
 .filters {
-  background-image: url("../img//filter-background-hotels.PNG");
+  background-image: url("../img//filter-background-hotels.png");
   background-color: #2D383C;
   background-repeat: no-repeat;
   text-align: center;
