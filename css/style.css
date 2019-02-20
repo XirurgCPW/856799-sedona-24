@@ -40,13 +40,21 @@ a {
    line-height: 20px;
    color: #000000;
    background-color: #ffffff;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .site-navigation {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
+
 .site-navigation a {
   color: #000000;
+  padding-left: 147px;
 }
 
 .site-navigation a:hover {
@@ -59,10 +67,16 @@ a {
 
 .features-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features {
+  text-align: center;
 }
 
 .feature-item {
-  text-align: center;
+  width: 400px;
   }
 
 .featured-item h3 {
@@ -105,6 +119,18 @@ a {
   background-repeat: no-repeat;
   text-align: center;
   background-size: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.found {
+
+}
+
+.found-list {
+border-top: 1px;
+border-color: rgba(0, 1, 1, 0.2);
 }
 
 .found-hotel > h3 > a {
