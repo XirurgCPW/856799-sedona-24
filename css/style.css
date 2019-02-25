@@ -140,12 +140,18 @@ a {
   background-color: #766357;
   color: white;
   border: 0;
+  margin: 0 auto;
+  width: 568px;
+  height: 86px;
 }
 
 .search {
   background-color: #81b3d2;
   color: white;
   border: 0;
+  margin: 0 auto;
+  width: 458px;
+  height: 58px;
 }
 
 .filters {
@@ -165,7 +171,6 @@ a {
 }
 
 .found-hotel {
-  /*height: 151px;*/
 
   display: flex;
   flex-direction: row;
@@ -219,10 +224,19 @@ a {
   text-align: center;
 }
 
-.modal.modal-search {
-  items-align: center;
+.modal.modal-search > form {
+  margin: 0 auto;
   width: 568px;
-  border: 0;
+  height: 395px;
+  padding: 55px;
+  margin-bottom: 30px;
+}
+
+.map {
+  margin: 0 auto;
+  width: 1200px;
+  height: 593px;
+  background-color: grey;
 }
 
 .main-footer {
