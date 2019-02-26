@@ -28,6 +28,8 @@ a {
 
 .logo {
   align-items: center;
+  position: absolute;
+  transform: translate(525px);
 }
 
 .img {
@@ -67,29 +69,7 @@ a {
   color: #000000;
 }
 
-.navigation-item-1 {
-  align-items: left;
-  width: 25%;
-  padding-left: 72px;
-  padding-right: 72px;
-}
 
-.navigation-item-2 {
-  align-items: left;
-  width: 25%;
-}
-
-.navigation-item-3 {
-  align-items: right;
-  width: 25%;
-}
-
-.navigation-item-4 {
-  align-items: right;
-  width: 25%;
-  padding-left: 72px;
-  padding-right: 72px;
-}
 
 .site-navigation a:hover {
   color: #81b3d2;
@@ -245,7 +225,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .visit {
@@ -258,7 +238,8 @@ a {
 
 .footer-social {
   width: 400px;
-
+  padding: 0;
+  list-style: none;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -276,4 +257,23 @@ a {
 .social-button {
   background-color: #81b3d2;
   color: white;
+
+  display: block;
+  width: 46px;
+  height: 48px;
+}
+
+.twitter {
+  padding-top: 17px;
+  padding-left: 14px;
+}
+
+.facebook {
+  padding-top: 13px;
+  padding-left: 16px;
+}
+
+.youtube {
+  padding-top: 16px;
+  padding-left: 13px;
 }
