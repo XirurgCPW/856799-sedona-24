@@ -233,7 +233,7 @@ a {
   width: 400px;
 
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .footer-social {
@@ -241,7 +241,7 @@ a {
   padding: 0;
   list-style: none;
   display: flex;
-  align-items: center;
+  justify-content: center;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -251,7 +251,7 @@ a {
   width: 400px;
 
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .social-button {
