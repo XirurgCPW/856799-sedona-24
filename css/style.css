@@ -187,7 +187,7 @@ a {
   display: flex;
   flex-direction: column;
 
-  line-height: 10px;
+  /*line-height: 10px;*/
   margin-right: auto;
 }
 
@@ -197,11 +197,13 @@ a {
 
   padding-right: 72px;
   margin-left: 638px;
+  width: 300px;
 }
 
 .about-hotel {
   background-color: #81b3d2;
   color: white;
+
 }
 
 .hotel-book {
